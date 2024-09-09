@@ -46,4 +46,4 @@ where Title Like '%geek squad%' AND MiddleInitial IS NULL;
 -- find all products from the products table whose stock level is in the range -- of 500 to 1200. Order by Price from least to greatest.
 SELECT * FROM Products 
 where stocklevel between 500 and 1200
-order by price Price asc
+order by price asc
