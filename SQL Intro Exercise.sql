@@ -30,10 +30,10 @@ WHERE firstname LIKE 'J%';
 
 -- find all Macbooks
 SELECT * from products
-where name lIKE '%macbook%'
+where name lIKE '%macbook%';
 
 -- find all products that are on sale --
-select * FROM products
+SELECT * FROM products
 where OnSale = 1;
 
 -- find the average price of all products
